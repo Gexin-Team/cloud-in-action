@@ -5,6 +5,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 
+//注释为 Eureka的注册实例 (@EnableDiscoveryClient)
 @EnableEurekaClient
 @SpringBootApplication
 public class Application {

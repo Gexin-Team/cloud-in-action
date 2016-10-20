@@ -9,7 +9,7 @@
 	<modules>
 		<module>../cloud-admin</module>
 		<module>../cloud-restapi-apns</module>
-		<module>../cloud-restapi-gateway</module>
+		<module>../cloud-api-gateway</module>
 		<module>../cloud-config</module>
         <module>../cloud-eureka</module>
     </modules>
@@ -145,7 +145,7 @@
 		</profile>
 	</profiles>
 
-
+    <!--repo1 无最新包-->
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
