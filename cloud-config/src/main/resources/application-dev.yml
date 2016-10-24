@@ -1,0 +1,25 @@
+            #dev profile#
+###################################
+
+management:
+  address: 192.168.5.77
+  port: 8001
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Gexin-Team/config-repository.git
+          search-paths: global,cloud-*
+          #password:
+          #username:
+eureka:
+    host: 192.168.5.77
+    port: 6001
+    
+server:
+  port: 8000
+  address: 192.168.5.77
+
+

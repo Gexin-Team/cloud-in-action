@@ -1,0 +1,14 @@
+# @ @ : get maven variables
+spring:
+  profiles:
+    # active profiles
+    active: @environment@
+  application:
+    name: cloud-config-server
+info:
+  build:
+    artifact: @project.artifactId@
+    name: @project.name@
+    description: @project.description@
+    version: @project.version@
+

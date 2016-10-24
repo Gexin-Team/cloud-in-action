@@ -1,0 +1,6 @@
+eureka:
+  instance:
+    nonSecurePort: ${server.port:8888}
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:6001}/eureka/
